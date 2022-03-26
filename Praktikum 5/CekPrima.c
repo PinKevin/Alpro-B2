@@ -22,7 +22,7 @@ int main() {
     if (N <= 0) {
         printf("\nBilangan harus positif\n");
     } else if (N == 1) {
-        printf("\nBukan bilangan prima\n", N);
+        printf("\n1 bukan bilangan prima\n", N);
     } else {
         for(i = 2; i <= sqrt(N); i++){
             if(!(N % i)){
@@ -31,9 +31,9 @@ int main() {
         }
 
         if (cek) {
-          printf("\nBilangan prima\n", N);
+          printf("\n%d adalah bilangan prima\n", N);
         } else {
-            printf("\nBukan bilangan prima\n", N);
+            printf("\n%d bukan bilangan prima\n", N);
         }
     }
 
