@@ -30,9 +30,9 @@ int main() {
         }
 
         if (N == perf) {
-          printf("\nBilangan sempurna\n", N);
+          printf("\n%d adalah bilangan sempurna\n", N);
         } else {
-            printf("\nBukan bilangan sempurna\n", N);
+            printf("\n%d bukan bilangan sempurna\n", N);
         }
     }
 
